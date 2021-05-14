@@ -29,7 +29,7 @@ while is_game_over == False:
     else:
         print("Invalid guess. Not a number")
 
-    if attempts <= 0:
+    if attempts == 0:
         print("You've run out of guesses, you lose.")
         is_game_over = True
 
